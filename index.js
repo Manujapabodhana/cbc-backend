@@ -1,1 +1,19 @@
-console.log('Hello, World!');
+import express from 'express';
+
+const app = express();
+ app.get("/",
+ ()=>{
+    console.log("Get request recieved")
+ }
+)
+
+app.post("/",
+    ()=>{
+        console.log("post request recieved")
+    }
+)
+
+app.listen(5000, () => {
+    console.log("server is started");
+}
+ )

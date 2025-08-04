@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,9 +15,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Manujapabodhana/cbc-backend/issues"
   },
-  "homepage": "https://github.com/Manujapabodhana/cbc-backend#readme"
+  "homepage": "https://github.com/Manujapabodhana/cbc-backend#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodeman": "^1.1.2"
+  }
 }
