@@ -1,9 +1,10 @@
 import express from 'express';
 
 const app = express();
- app.get("/",
- ()=>{
-    console.log("Get request recieved")
+ app.get("/",(req,res)=>{
+    // console.log(req);
+    console.log("Get request recieved");
+    res.send("Hello from the server");
  }
 )
 
