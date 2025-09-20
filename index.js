@@ -7,11 +7,7 @@ const app = express();
  }
 )
 
-app.post("/",
-    ()=>{
-        console.log("post request recieved")
-    }
-)
+
 
 app.listen(5000, () => {
     console.log("server is started");
